@@ -46,6 +46,11 @@ button:focus:not(:focus-visible) {
     transform:translateY(-20px);
 }
 
+.infrastructure {
+    background-color: #3e64ff;
+    padding: 5% 0;
+}
+
 @media screen and (max-width: 960px) {
     ul.gap {
         gap:0;

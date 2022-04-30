@@ -11,7 +11,7 @@
     
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light pt-4 pb-4">
       <div class="container justify-content-end">
         <a class="navbar-brand text-primary me-auto d-block d-lg-none  " href="#">harbor</a>  
         <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -47,33 +47,81 @@
       </div>
     </nav>
 
-    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+    <div id="carouselExampleIndicators" class="carousel slide position-relative" data-bs-ride="carousel">
       <div class="carousel-indicators">
-        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active btn-ind" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" class="btn-ind" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" class="btn-ind" aria-label="Slide 3"></button>
       </div>
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img src="..." class="d-block w-100" alt="...">
+      <div class="carousel-inner ">
+        <div class="promo d-inline-block bg-white position-absolute top-50 start-50 translate-middle p-2 px-3 p-md-5">
+          <h1>Interior Design</h1> 
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing </br>elit. Sed fugiat reprehenderit rem?</p>
+          <a class="btn btn-primary" href="#">Get in touch</a>
+        </div>
+        <div class="carousel-item active" >
+          <img src="images/hero_1.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item" >
+          <img src="images/hero_2.jpg" class="d-block w-100" alt="...">
         </div>
         <div class="carousel-item">
-          <img src="..." class="d-block w-100" alt="...">
-        </div>
-        <div class="carousel-item">
-          <img src="..." class="d-block w-100" alt="...">
+          <img src="images/hero_3.jpg" class="d-block w-100" alt="...">
         </div>
       </div>
-      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-      </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </button>
     </div>
       
+    <section class="portfolio mt-5 py-5">
+      <div class="container">
+
+        <div class="row mb-5 justify-content-between">
+            <div class="col">
+              <h2 >OUR WORK</h2>
+            </div>
+
+            <div class="col text-end">
+              <a href="" class="view-all d-inline-block pt-2 text-black text-decoration-none fw-bold ">VIEW ALL WORKS ></a>
+            </div>
+        </div>
+
+        <div class="row gx-4">
+          <div class="card col-12 col-lg-6 border-0">
+            <a href="#"><img src="images/about_3.jpg" class="card-img-top " alt="..."></a>
+            <div class="card-body mt-2 px-0">
+              <a href="#" class="display-6 fs-3 text-decoration-none text-black ">Creative Modern House</a>
+              <p class="card-text">New York City, USA</p>
+            </div>
+          </div>    
+
+          <div class="card col-12 col-lg-6 border-0">
+            <a href="#"><img src="images/about_2.jpg" class="card-img-top " alt="..."></a>
+            <div class="card-body mt-2 px-0">
+              <a href="#" class="display-6 fs-3 text-decoration-none text-black" >Creative Modern House</a>
+              <p class="card-text">New York City, USA</p>
+            </div>
+          </div>  
+          
+          <div class="card col-12 col-lg-6 border-0">
+            <a href="#"><img src="images/about_1.jpg" class="card-img-top " alt="..."></a>
+            <div class="card-body mt-2 px-0">
+              <a href="#" class="display-6 fs-3 text-decoration-none text-black" >Creative Modern House</a>
+              <p class="card-text">New York City, USA</p>
+            </div>
+          </div> 
+
+          <div class="card col-12 col-lg-6 border-0">
+            <a href="#"><img src="images/img_4.jpg" class="card-img-top " alt="..."></a>
+            <div class="card-body mt-2 px-0">
+              <a href="#" class="display-6 fs-3 text-decoration-none text-black" >Creative Modern House</a>
+              <p class="card-text">New York City, USA</p>
+            </div>
+          </div> 
+        </div>
+
+      </div>
+    </section>
+
+    
     
   </body>
 </html>
